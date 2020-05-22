@@ -15,6 +15,18 @@ const formatString = function(string) {
   
 };
 
+
+
+/**************************ВАРИАНТ ЧЕРЕЗ ТЕРНАРНЫЙ ОПЕРАТОР****************/
+
+// const formatString = function (string) {
+//   return string.length <= 40 ? string : string.slice(0, 40) + "...";
+//   };
+
+/************************************************************************/
+
+
+
 // или такой вариант сразу записаний в return)
 
 // const formatString = function(string) {
