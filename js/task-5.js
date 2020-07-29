@@ -10,40 +10,24 @@ const checkForSpam = function(message) {
 }
 
 
-
 // const checkForSpam = function(message) {
 
-//   let spamWords;
+//   const spamWords = ['sale', 'spam']
 
 //   const wordsToCheck = message.toLowerCase();
-
-//   const isSpam = wordsToCheck.includes(spamWords);
-
-//   switch(spamWords){
-//     case 'spam':
-//     return isSpam;
-
-//     case 'sale':
-//     return isSpam;
-//   }
   
+//   for(let i = 0; i < spamWords.length; i+= 1 ){
+
+//     if(wordsToCheck.includes(spamWords[i]))
+//     return true;
+
+//   }
+
+//   return false;
 // }
 
 
 
-// const checkForSpam = function(message) {
-
-//   let spamWords;
-
-//   const wordsToCheck = message.toLowerCase();
-
-//   const isSpam = wordsToCheck.includes(spamWords);
-
-//   if(spamWords === 'spam' || spamWords === 'sale'){
-//     return isSpam;
-//   }
-  
-// }
 
 
 
